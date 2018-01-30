@@ -1,0 +1,8 @@
+<view>
+    <view class="test">{{ message }}</view>
+    <view hidden="{{flag?true:false}}">Hidden</view>
+    <checkbox checked="{{false}}"></checkbox>
+    <view wx:if="{{condition}}">wx</view>
+    <view wx:for="{{[zero,1,2,3,4]}}">{{item}}</view>
+</view>
+
